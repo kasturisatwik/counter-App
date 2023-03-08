@@ -1,0 +1,65 @@
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.main {
+    /* border: 1px solid palevioletred; */
+    width: 70%;
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+h2 {
+    color: #f6f7eb;
+}
+h3 {
+    color: #d90368;
+    font-size: 27px;
+}
+.u1 {
+        height: 250px;
+        width: 45%;
+        background-color: #233d4d;
+        border-radius: 14px
+}
+.u2 {
+    height: 250px;
+    width: 45%;
+    background-color: #233d4d;
+    border-radius: 14px;
+}
+.b {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10% 0px 10%;
+}
+button {
+    /* border: none; */
+    margin-bottom: 7px;
+    background-color: #2a9d8f;
+    border-radius: 5px;
+}
+button:focus{
+    outline: none;
+}
+@media (max-width:500px) {
+    .main{
+        height: 530px;
+        /* border: 1px solid greenyellow; */
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0px auto;
+        align-items: center;
+    }
+    .u1 , .u2 {
+        width: 100%;
+        max-width: 250px
+    }
+}
